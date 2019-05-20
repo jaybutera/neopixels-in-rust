@@ -1,0 +1,10 @@
+[package]
+name = "rust-led"
+version = "0.1.0"
+authors = ["pi"]
+edition = "2018"
+
+[dependencies]
+rs_ws281x = { git = "https://github.com/rpi-ws281x/rpi-ws281x-rust" }
+actix = "0.7"
+futures = "0.1"
